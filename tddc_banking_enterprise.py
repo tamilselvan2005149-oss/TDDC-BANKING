@@ -26,7 +26,7 @@ from faker import Faker
 # CONFIG
 # ----------------------------------------------------------------------
 DB_PATH = "tddc_bank.db"
-fake = Faker()
+fake = Faker('en_IN')
 Faker.seed(42)
 random.seed(42)
 
